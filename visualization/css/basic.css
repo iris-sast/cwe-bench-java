@@ -1,0 +1,52 @@
+.diff-file {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.diff-file pre {
+  line-height: 16px;
+  width: 100%;
+}
+
+.diff-file pre .line {
+  line-height: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.diff-file pre .line.remove {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+.diff-file pre .line.add {
+  background-color: rgba(0, 255, 0, 0.2);
+}
+
+.code-flows {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.code-flow {
+  transition: all 0.1s;
+  width: 480px;
+  min-width: 480px;
+  max-height: 480px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.code-flow + .code-flow {
+  margin-left: 15px;
+}
+
+.code-flow-item {
+  padding: 2px 10px;
+  border-bottom: 0;
+}
+
+.code-flow-item:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
