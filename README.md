@@ -194,6 +194,9 @@ As shown in the screenshot, you will be able to navigate to the corresponding Gi
 All the links are clickable and take you straight to the source in Github.
 The visualization page also provides functionalities to search and filter projects by CWEs, which should come in handy when you need to closely investigate the vulnerabilities.
 
+Newly added CVEs, if well-formatted according to `data/build_info.csv` and `data/fix_info.csv`, will
+be automatically displayed within the visualizer.
+
 ## Citation
 
 Consider citing our paper:
