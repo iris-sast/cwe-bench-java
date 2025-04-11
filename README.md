@@ -176,6 +176,27 @@ Each row in `data/build_info.csv` consists of the following:
 - `gradle_version`: if built successfully with Gradle, the Gradle version used. Otherwise, it will be `n/a`
 - `use_gradlew`: if built successfully with the custom `gradlew` script provided with the project itself, it will be `1`. Otherwise it will be `n/a`
 
+## Visualization
+
+We provide a simple website that helps visualize the CVEs and provide necessary pointers to details of the CVEs provided in the dataset.
+You can start a simple Python http server by running the following script in your terminal:
+
+``` bash
+$ python3 -m http.server
+```
+
+Then you can visit the webpage in your browser by navigating to `http://localhost:8000/visualization/index.html`.
+If all the projects are fetched properly, you should see the following interface in your browser:
+
+![visualization](resources/visualizer-screenshot.png)
+
+As shown in the screenshot, you will be able to navigate to the corresponding Github repository, an NVD advisory page, and look at the files and diffs related to the fix of the vulnerability.
+All the links are clickable and take you straight to the source in Github.
+The visualization page also provides functionalities to search and filter projects by CWEs, which should come in handy when you need to closely investigate the vulnerabilities.
+
+Newly added CVEs, if well-formatted according to `data/build_info.csv` and `data/fix_info.csv`, will
+be automatically displayed within the visualizer.
+
 ## Citation
 
 Consider citing our paper:
