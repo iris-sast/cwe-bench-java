@@ -8,6 +8,8 @@ The dataset collection process is illustrated in the figure below:
 
 ![dataset-collection-process](resources/dataset-collection.png)
 
+[CWE-Bench-Java on Hugging Face](https://huggingface.co/datasets/iris-sast/CWE-Bench-Java) - The dataset is also available to use with the Hugging Face datasets library.
+
 ## Project Identifier
 
 In this dataset, each project is uniquely identified with a **Project Slug**, encompassing its repository name, CVE ID, and a tag corresponding to the buggy version of the project.
