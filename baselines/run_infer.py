@@ -23,7 +23,7 @@ def run_one(payload):
       "PATH": f"{CWE_BENCH_JAVA_ROOT_DIR}/java-env/gradle-7.6.4/bin:{CWE_BENCH_JAVA_ROOT_DIR}/java-env/jdk1.8.0_202/bin:{os.environ['PATH']}",
       "JAVA_HOME": f"{CWE_BENCH_JAVA_ROOT_DIR}/java-env/jdk1.8.0_202",
       # "PATH": f"{CWE_BENCH_JAVA_ROOT_DIR}/java-env/apache-maven-3.9.8/bin:{CWE_BENCH_JAVA_ROOT_DIR}/java-env/jdk-17.0.12/bin:{os.environ['PATH']}",
-      # "JAVA_HOME": f"{CWE_BENCH_JAVA_ROOT_DIR}/java-env/jdk-17.0.12",
+      # "JAVA_HOME": f"{CWE_BENCH_JAVA_ROOT_DIR}/java-env/jdk-17",
     },
     text=True,
   )
