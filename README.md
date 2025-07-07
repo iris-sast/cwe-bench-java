@@ -78,7 +78,7 @@ Each row in `data/fix_info.csv` looks like the following.
 
 | project_slug | cve | github_username | github_repository_name | commit | file | class | class_start | class_end | method | method_start | method_end | signature |
 |--------------|-----|-----------------|------------------------|--------|------|-------|-------------|-----------|--------|--------------|------------|-----------|
-| apache__activemq_CVE-2014-3576_5.10.2 | CVE-2014-3576 | apache | activemq | `00921f22ff9a8792d7663ef8fadd4823402a6324` | `activemq-broker/src/main/java/org/apache/activemq/broker/TransportConnection.java` | `TransportConnection` | 104 | 1655 | `processControlCommand` | 1536 | 1541 | `Response processControlCommand(ControlCommand)` |
+| apache__activemq_CVE-2014-3576_5.10.1 | CVE-2014-3576 | apache | activemq | `f07e6a53216f9388185ac2b39f366f3bfd6a8a55` | `activemq-broker/src/main/java/org/apache/activemq/broker/TransportConnection.java` | `TransportConnection` | 104 | 1654 | `processControlCommand` | 1536 | 1538 | `Response processControlCommand(ControlCommand)` |
 
 - `project_slug`: the unique identifier of each project
 - `cve_id`: the CVE id
