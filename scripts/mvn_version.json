@@ -10,7 +10,7 @@
     "dir": "apache-maven-3.5.0"
   },
   "3.9.8": {
-    "url": "https://dlcdn.apache.org/maven/maven-3/3.9.8/binaries/apache-maven-3.9.8-bin.zip",
+    "url": "https://archive.apache.org/dist/maven/maven-3/3.9.8/binaries/apache-maven-3.9.8-bin.zip",
     "zip_file": "apache-maven-3.9.8-bin.zip",
     "dir": "apache-maven-3.9.8"
   }
