@@ -8,6 +8,9 @@ The dataset collection process is illustrated in the figure below:
 
 ![dataset-collection-process](resources/dataset-collection.png)
 
+
+CWE-Bench is now primarily hosted at the [data directory of the IRIS repo.](https://github.com/iris-sast/iris/tree/v2/data)
+
 [CWE-Bench-Java on Hugging Face](https://huggingface.co/datasets/iris-sast/CWE-Bench-Java) - The dataset is also available to use with the Hugging Face datasets library.
 
 ## Project Identifier
